@@ -170,7 +170,6 @@
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">Cloud Volumes ONTAP puede ejecutarse en una instancia de EC2 reservada o bajo demanda. No se admiten soluciones que usan otros tipos de instancia.</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">Regiones admitidas</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Regiones globales de Cloud Volumes</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">Para obtener soporte de región de AWS, consulte<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="b889869e31827a33530d6fd02141fdb5" category="summary">Azure admite varias configuraciones de Cloud Volumes ONTAP.</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="doc">Configuraciones compatibles en Azure</block>
   <block id="c334038ed8a782403ae705a8de1f584b" category="section-title">Configuraciones admitidas por licencia</block>
@@ -211,7 +210,6 @@
   <block id="c0f95d0d2e06eba7eb0522dabf1c9d76" category="paragraph">A la inversa, si puso en marcha Cloud Volumes ONTAP con cualquier otro tipo de equipo virtual, no podrá cambiar a un tipo de equipo virtual que utilice un Ultra SSD para NVRAM. Por ejemplo, no puede cambiar de E8s_v3 a E8ds_v4.</block>
   <block id="07daff7fe86cfb582b0c246d7cefb754" category="list-text">Todos los tipos de instancia admiten la alta velocidad de escritura cuando se utiliza un sistema de nodo único. Es posible habilitar la alta velocidad de escritura desde BlueXP  durante la implementación o en cualquier momento posterior.<block ref="18805b87db41583a67ecc2414d022f2b" category="inline-link-rx"></block>.</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">El rendimiento de escritura mejorado se habilita al usar SSD.</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Para obtener soporte de región de Azure, consulte<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP puede ejecutarse en una instancia de máquina virtual reservada o bajo demanda desde el proveedor de cloud. No se admiten soluciones que usan otros tipos de instancia de máquinas virtuales.</block>
   <block id="b049fcbe8198301adc6bf87634a02845" category="section-title">Parejas de HA</block>
   <block id="2eacfdd792ca3ab121472c95654b43ec" category="paragraph">Puede elegir entre las siguientes configuraciones al poner en marcha Cloud Volumes ONTAP como pareja de alta disponibilidad en Azure.</block>
@@ -258,7 +256,6 @@
   <block id="46e869bc0f7a5fcdc09df010e1f48b25" category="list-text">El tipo de máquina personalizado-4-16384 ya no es compatible con los nuevos sistemas Cloud Volumes ONTAP.</block>
   <block id="0e3cb01898d99d0091e2a6f5a7572390" category="paragraph">Si ya tiene un sistema en funcionamiento en este tipo de máquina, puede seguir utilizándolo, pero le recomendamos cambiar al tipo de máquina n2-standard-4.</block>
   <block id="30749b02bc62d931d770e6c719254e7b" category="list-text">La interfaz BlueXP muestra un tipo de máquina adicional compatible para Standard y BYOL: n1-Highmem-4. Sin embargo, este tipo de máquina no está pensado para entornos de producción. Lo hemos puesto a disposición únicamente para entornos específicos de laboratorio.</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">Para obtener información sobre el soporte de región de Google Cloud Platform, consulte<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>.</block>
   <block id="d29bff99e1f1d5529824e9017672d630" category="paragraph">En Google Cloud, un agregado puede contener hasta 6 discos con el mismo tipo y tamaño. Se admiten los siguientes tamaños de disco:</block>
   <block id="dcfebc6fbca2c5316f55c914e6593d2d" category="list-text">100GB</block>
   <block id="70f79b00cb7649d94d473895d6c540d2" category="list-text">1TB</block>
@@ -302,7 +299,6 @@
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">Limitaciones de ALTA DISPONIBILIDAD</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="paragraph">En algunas regiones no se admiten pares DE HA.</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">Consulte la lista de regiones de Azure admitidas</block>
-  <block id="1e6996b39daf779b565c50c8411fbc8d" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block>.</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente.</block>
   <block id="d634bf53c207457b9f979a3511629617" category="doc">Limitaciones conocidas de Google Cloud</block>
   <block id="5caaf889f6f108c7753c8110e25e46bc" category="paragraph">Las siguientes limitaciones conocidas son específicas de Cloud Volumes ONTAP en Google Cloud Platform. Asegúrese de revisar también<block ref="edcf15b4d9d7d1e018ccca7ce112dd3e" category="inline-link-macro-rx"></block>.</block>
@@ -664,4 +660,8 @@
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Limitaciones del uso de extensiones de Azure VM</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP no es compatible con las extensiones de máquinas virtuales de Azure ni con aplicaciones de máquinas virtuales en una implementación. El uso de Cloud Volumes ONTAP en Azure con extensiones de VM provoca retrasos en las operaciones y NetApp recomienda evitarlos.</block>
   <block id="a6c05065d2d7f18666563629721d0545" category="sidebar">Notas de la versión de Cloud Volumes ONTAP 9.12.0</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">Para obtener soporte de región de AWS, consulte<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Para obtener soporte de región de Azure, consulte<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Para obtener información sobre el soporte de región de Google Cloud Platform, consulte<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>.</block>
+  <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>.</block>
 </blocks>
